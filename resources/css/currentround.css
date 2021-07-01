@@ -1,0 +1,179 @@
+﻿html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    color: #eee;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #D0021B;
+    padding: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    nav h3 {
+        color: #eee;
+        font-family: 'Odibee Sans', sans-serif;
+        margin-left: 8px;
+        text-transform: uppercase;
+        text-align: left;
+        display: inline;
+    }
+
+        nav h3 a {
+            text-decoration: none;
+            color: #eee;
+        }
+
+.navlinks {
+    text-align: right;
+}
+
+    .navlinks a {
+        padding: 0px 10px;
+        text-decoration: none;
+        color: #eee;
+        font-family: 'Oswald', serif;
+    }
+
+        .navlinks a:hover {
+            font-style: italic;
+        }
+
+.main {
+    width: 90%;
+    background-color: #111;
+    position: relative;
+    height: fit-content;
+    top: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+    align-content: flex-start;
+    
+}
+
+.roundnum {
+	color: #eee;
+	font-family: 'Oswald', serif;
+	font-size: 3rem;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	background-color: #111;
+}
+
+.mainquest {
+	text-align: center;
+	width: 100%;
+}
+
+.mainquest h2 {
+	font-family: 'Odibee Sans', sans-serif;
+	color: #eee;
+	font-size: 2.3rem;
+	text-shadow: #D0021B -3px 0px;
+}
+
+.columncont {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	background-color: #111;
+	font-size: 2rem;
+	padding: 8px;
+	}
+
+.side {
+	width: 20%;
+	color: #eee;
+	margin: 0px 5px;
+}
+
+#subqtitle {
+	color: #eee;
+	font-family: Oswald, serif;
+	font-size: 1.4rem;
+	text-shadow: -3px 0px #D0021B;
+	font-style: italic;
+	display: none;
+	
+}
+
+.sqcontent {
+	width: 100%;
+	color:#eee;
+	font-family: 'Odibee Sans', sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	display: none;
+	
+}
+
+.questinfo {
+	width: 60%;
+	display: flex;
+	flex-flow: column wrap;
+	margin: 0px 5px;
+}
+
+#step {
+	font-family: Oswald, serif;
+	font-size: 1.8rem;
+	color: #eee;
+	padding-left: 10px;
+	text-shadow: -3px 0px #d0021b;
+	font-style: italic;
+}
+
+#questtext {
+	width: 100%;
+	padding: 0px 20px;
+	font-size: 1rem;
+	text-align: justify;
+	justify-content: center;
+	font-family: 'Odibee Sans', sans-serif;
+	
+}
+
+.threshold {
+	width: 20%
+	margin: 0px 5px;
+}
+
+#headings {
+	color: #D0021B;
+	font-family: 'Oswald', serif;
+	text-align:center;
+	margin: 0px;
+}
+
+
+#stars {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.tally {
+	padding: 10px;
+	font-family: 'Odibee Sans', sans-serif;
+	font-size: 1.2rem;
+	margin-top: 8px;
+	display: none;
+}
+

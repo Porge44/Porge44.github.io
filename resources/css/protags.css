@@ -1,0 +1,149 @@
+﻿html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    color: #eee;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #D0021B;
+    padding: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h3 {
+        color: #eee;
+        font-family: 'Odibee Sans', sans-serif;
+        margin-left: 8px;
+        text-transform: uppercase;
+        text-align: left;
+        display: inline;
+    }
+
+nav h3 a {
+            text-decoration: none;
+            color: #eee;
+        }
+
+.navlinks {
+    text-align: right;
+}
+
+.navlinks a {
+        padding: 0px 10px;
+        text-decoration: none;
+        color: #eee;
+        font-family: 'Oswald', serif;
+    }
+
+.navlinks a:hover {
+            font-style: italic;
+        }
+
+.main {
+    width: 90%;
+    background-color: #111;
+    position: relative;
+    height: 100%;
+    top: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+    align-content: flex-start;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    background-color: #111;
+
+}
+
+.title h1 {
+    font-family: Oswald, serif;
+    color: #eee;
+    font-size: 3rem;
+    }
+
+.listcont {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #111;
+    width: 100%;
+}
+
+.listname {
+    width: 100%;
+    padding: 10px 10px;
+    color: #eee;
+    font-family: Oswald, serif;
+    font-size: 2.2rem;
+    background-color: #d0021b;
+}
+
+.boxcontainer {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #111;
+}
+
+.box {
+    width: 20%;
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    color: #eee;
+    margin: 10px;
+}
+
+    .box h2 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: #eee;
+        text-align: center;
+        font-style: italic;
+        margin:8px 0px 5px 0px;
+    }
+
+    .box i {
+        font-size: 3rem;
+    }
+
+    .box p {
+        color: #eee;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-size: 0.9rem;
+        margin-top: 1px;
+    }
+
+    .box a {
+        text-decoration: none;
+        color: transparent;
+    }
+
+#mads h2, #mads i {
+    color: dodgerblue;
+}
+
+#mums h2, #mums i {
+    color: mediumvioletred;
+}

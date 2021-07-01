@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    color: #eee;
+}
+
+.main {
+    width: 90%;
+    background-color: #111;
+    position: relative;
+    height: fit-content;
+    top: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+    font-size: 0px;
+    align-content: flex-start;
+    
+}
+
+.ruleblock {
+    width: 100%;
+    color: #eee;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.ruleblock h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: -3px 0px #D0021B;
+    margin: auto;
+
+    }
+
+.ruleblock p {
+    text-align: justify;
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 650px) {
+    .ruleblock {
+        width: 50%;
+    }
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #D0021B;
+    padding: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h3 {
+    color: #eee;
+    font-family: 'Odibee Sans', sans-serif;
+    margin-left: 8px;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline;
+}
+
+nav h3 a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.navlinks {
+    text-align: right;
+}
+
+.navlinks a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #eee;
+    font-family: 'Oswald', serif;
+    
+}
+
+.navlinks a:hover {
+    font-style: italic;
+}

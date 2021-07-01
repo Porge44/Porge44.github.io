@@ -1,0 +1,121 @@
+﻿html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    color: #eee;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #D0021B;
+    padding: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    nav h3 {
+        color: #eee;
+        font-family: 'Odibee Sans', sans-serif;
+        margin-left: 8px;
+        text-transform: uppercase;
+        text-align: left;
+        display: inline;
+    }
+
+        nav h3 a {
+            text-decoration: none;
+            color: #eee;
+        }
+
+.navlinks {
+    text-align: right;
+}
+
+    .navlinks a {
+        padding: 0px 10px;
+        text-decoration: none;
+        color: #eee;
+        font-family: 'Oswald', serif;
+    }
+
+        .navlinks a:hover {
+            font-style: italic;
+        }
+
+.main {
+    width: 90%;
+    background-color: #111;
+    position: relative;
+    height: fit-content;
+    top: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+    align-content: flex-start;
+    
+}
+
+.boxcontainer {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #111;
+}
+
+.box {
+    width: 40%;
+    background-color: #111;
+    text-align:center;
+    padding: 20px;
+    color: #eee;
+    margin:10px;
+}
+
+.box h2 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: #d0021b;
+        text-align: center;
+        
+    }
+
+.box i {
+    color: #D0021B;
+    font-size: 3rem;
+}
+
+.box p {
+        color: #eee;
+        font-family: 'Oswald', sans-serif;
+        text-align: justify;
+        width: 90%;
+        margin: auto;
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+
+.box a {
+    text-decoration: none;
+    color: transparent;
+}
+
+.termtitle {
+	text-align: center;
+	width: 100%;
+	font-size: 2rem;
+	font-family: Oswald, serif;
+	color: #eee;
+}

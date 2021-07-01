@@ -1,0 +1,11 @@
+﻿body
+{
+    width: 550px;
+    height: 400px;
+    background-color: #111;
+    padding: 10px;
+    font-family: 'Odibee Sans', sans-serif;
+    color: #eee;
+    overflow: hidden;
+    text-align: justify;
+}

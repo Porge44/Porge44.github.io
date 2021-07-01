@@ -1,0 +1,117 @@
+﻿body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 90%;
+    background-color: #111;
+    position: relative;
+    top: 0px;
+    height: 100%;
+}
+
+header {
+    background-color: #111;
+}
+
+.logocont {
+    width: 10%;
+}
+
+.logocont img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    left: 30px;
+}
+
+.welcometitle {
+    text-align: center;
+    color: #eee;
+    font-size: 6rem;
+    width: 90%;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    font-style: italic;
+    letter-spacing: -.2rem;
+    text-shadow: -3px 0px #D0021B;
+    position: relative;
+    right: 30px;
+}
+
+.intro {
+    background-color: #D0021B;
+    padding:10px 0px;
+    width: 100%;
+}
+
+.intro h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #eee;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.introtext {
+    color: #eee;
+    font-family: 'Odibee Sans', sans-serif;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: -15px;
+    font-size: 1.1rem;
+}
+
+.boxcontainer {
+    display: inline-flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #111;
+}
+
+.box {
+    width: 20%;
+    background-color: #111;
+    text-align:center;
+    padding: 20px;
+    color: #eee;
+    margin:10px;
+}
+
+    .box h2 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: #eee;
+        text-align: center;
+        text-shadow: -3px 0px #D0021B;
+        font-style: italic;
+    }
+
+.box i {
+    color: #D0021B;
+    font-size: 3rem;
+}
+
+    .box p {
+        color: #eee;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+
+.box a {
+    text-decoration: none;
+    color: transparent;
+}

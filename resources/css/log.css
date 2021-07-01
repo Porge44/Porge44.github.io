@@ -1,0 +1,55 @@
+﻿html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    color: #eee;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #D0021B;
+    padding: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    nav h3 {
+        color: #eee;
+        font-family: 'Odibee Sans', sans-serif;
+        margin-left: 8px;
+        text-transform: uppercase;
+        text-align: left;
+        display: inline;
+    }
+
+        nav h3 a {
+            text-decoration: none;
+            color: #eee;
+        }
+
+.navlinks {
+    text-align: right;
+}
+
+    .navlinks a {
+        padding: 0px 10px;
+        text-decoration: none;
+        color: #eee;
+        font-family: 'Oswald', serif;
+    }
+
+        .navlinks a:hover {
+            font-style: italic;
+        }
