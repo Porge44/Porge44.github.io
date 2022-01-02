@@ -53,3 +53,42 @@ nav {
         .navlinks a:hover {
             font-style: italic;
         }
+
+body {
+    background-color: #111;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    color: #eee;
+}
+
+.main {
+    width: 90%;
+    background-color: #111;
+    position: relative;
+    height: fit-content;
+    top: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+    font-size: 0px;
+    align-content: flex-start;
+}
+
+.logblock {
+    width: 100%;
+    color: #eee;
+    padding: 10px;
+    margin: auto;
+}
+
+    .logblock h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: ##D0021B;
+        margin: auto;
+    }
